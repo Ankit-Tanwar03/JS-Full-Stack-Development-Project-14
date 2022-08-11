@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./Assets/pexels-rfstudio-3819572.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 540px;
+    background-color: #F5F2F0;
+}
+
+.navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.line{
+    height: 1.5px;
+    width: 300px;
+    background-color: black;
+    margin-left: 350px;
+}
+
+.list-items{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.list-item{
+    margin: 0px 40px;
+    color: #333333a9;
+}
+
+.list-item:hover{
+    color: #000000;
+}
+
+.middle{
+    margin-top: -10px;
+    position: relative;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.middle h1{
+    font-size: 150px;
+}
+
+.middle .part1{
+    position: absolute;
+    left:600px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333333;
+}
+
+.middle .part2{
+    position: absolute;
+    left:750px;
+    right: 0;
+    top: 110px;
+    bottom: 0;
+    color: #333333;
+}
+
+.middle p{
+    font-size: 40px;
+    margin-right: 90px;
+    margin-top: 130px;
+    color: #333333;
+}
+
+.middle .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.icons img{
+    margin: 20px 0px;
+    height: 20px;
+}
+
+button{
+    padding: 15px 65px;
+    float: right;
+    margin-right: 90px;
+    font-size: 17px;
+    border-style: none;
+    background-color: #333333;
+    color: #F5F2F0;
+}
+
+button:hover{
+    background-color: #333333a9;
+}
+
+.bottom{
+    position: relative;
+    margin-top: 60px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.vertical-line{
+    width: 1.5px;
+    height: 320px;
+    background-color: #33333388;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.bottom ul{
+    line-height: 60px;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.hov{
+    color: #333333a9;
+}
+
+.hov:hover{
+    color: #000000;
+}
+
+
+.circle{
+    margin-top: 23px;
+    position: absolute;
+    left:594px;
+    right: 0;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #333333a9;
+}
+
+.circle:hover{
+    margin-top: 23px;
+    position: absolute;
+    left:593.5px;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.bottom .content{
+    width: 370px;
+    margin-right: 50px;
+}
+
+.bottom .content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content img{
+    height: 280px;
+}
+
+.arrow{
+    margin-top: 100px;
+    margin-right: 90px;
+    color: #333333;
+}
