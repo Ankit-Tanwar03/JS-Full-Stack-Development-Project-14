@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo{
@@ -36,6 +37,7 @@ body{
     display: flex;
     list-style: none;
     margin-right: 50px;
+    /* overflow-x: auto;     */
 }
 
 .list-item{
@@ -81,17 +83,20 @@ body{
 }
 
 .middle p{
+    position: absolute;
+    top:160px;
+    left: 1150px;
     font-size: 40px;
-    margin-right: 90px;
-    margin-top: 130px;
     color: #333333;
 }
 
 .middle .icons{
+    position: absolute;
+    left: 1490px;
+    right: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 90px;
 }
 
 .icons img{
@@ -100,9 +105,9 @@ body{
 }
 
 button{
+    position: absolute;
+    left: 1150px;
     padding: 15px 65px;
-    float: right;
-    margin-right: 90px;
     font-size: 17px;
     border-style: none;
     background-color: #333333;
@@ -123,14 +128,18 @@ button:hover{
 }
 
 .vertical-line{
+    position: absolute;
+    left: 600px;
+    top: 30px;
     width: 1.5px;
     height: 320px;
     background-color: #33333388;
-    margin-left: 600px;
-    margin-top: 30px;
+
 }
 
 .bottom ul{
+    position: absolute;
+    left:644px;
     line-height: 60px;
     list-style: none;
     font-size: 20px;
@@ -149,7 +158,7 @@ button:hover{
 .circle{
     margin-top: 23px;
     position: absolute;
-    left:594px;
+    left:-50px;
     right: 0;
     height: 13px;
     width: 13px;
@@ -160,7 +169,7 @@ button:hover{
 .circle:hover{
     margin-top: 23px;
     position: absolute;
-    left:593.5px;
+    left:-48.5;
     right: 0;
     height: 15px;
     width: 15px;
@@ -169,6 +178,8 @@ button:hover{
 }
 
 .bottom .content{
+    position: absolute;
+    left:844px;
     width: 370px;
     margin-right: 50px;
 }
@@ -186,4 +197,128 @@ button:hover{
     margin-top: 100px;
     margin-right: 90px;
     color: #333333;
+}
+
+@media screen and (max-width:1300px) {
+    body{
+        background-image: none;
+        background-color: #F5F2F0;
+    }
+
+    .line{
+        margin-left: 150px;
+    }
+
+    .middle .part1{
+        left:100px;
+    }
+    
+    .middle .part2{
+        left:250px;
+    }
+    
+    .middle p{
+        left: 650px;
+    }
+    
+    .middle .icons{
+        left: 1090px;
+    }
+    
+    button{
+        left: 650px;
+    }
+
+    .vertical-line{
+        left: 100px;
+    }
+
+    .bottom ul{
+        left:144px;
+    }
+
+    .bottom .content{
+        left:344px;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .line{
+        display: none;
+    }
+
+    .list-items{
+        margin-right: 200px;
+    }
+    
+    .list-item{
+        margin: 0px 40px;
+        color: #333333a9;
+    }
+
+    .middle h1{
+        font-size: 100px;
+    }
+
+    .middle .part1{
+        top: 30px;
+    }
+
+    .middle .part2{
+        top: 130px;
+        left:180px;
+    }
+
+    .middle p{
+        left: 450px;
+    }
+    button{
+        left: 450px;
+    }
+
+    .middle .icons{
+        left: 690px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .list-items{
+        margin-right: 0px;
+    }
+        
+    .list-item{
+        width: 80px;
+        margin: 0px 30px;
+        color: #333333a9;
+    }
+
+    .vertical-line{
+        top:100px;
+        left: 100px;
+    }
+
+    .bottom ul{
+        top:100px;
+        left:144px;
+    }
+
+    .bottom .content{
+        top:100px;
+        left:344px;
+    }
+
+    button{
+        top: 350px;
+        left: 250px;
+        padding: 15px 65px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:650px){
+
 }
